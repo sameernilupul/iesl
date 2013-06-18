@@ -17,15 +17,31 @@ echo
                                 <td><input type="text"></td>
                             </tr>
                             <tr>
-                                <td>University Name</td>
+                                <td>School Name</td>
                                 <td><input type="text"></td>
                             </tr>
                             <tr>
-                                <td>Team members</td>
+                                <td>School Address</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Name of Principal</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Name of Teacher in Charge</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Contact Number of Teacher in Charge</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Team Members</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td style="height:70px ">Member 1(Team leader)</td>
+                                <td style="height:70px ">Member 1(Team Leader)</td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -34,15 +50,7 @@ echo
                                 <td><input type="text"></td>                            
                             </tr>
                             <tr>
-                                <td>University ID Number </td>
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Department of Study</td>	
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
+                                <td>Grade </td>
                                 <td><input type="text"></td>
                             </tr>
                             <tr>
@@ -58,19 +66,12 @@ echo
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Student Name</td>	
-                                <td><input type="text"></td>
+
+                                <td>Student Name</td>
+                                <td><input type="text"></td>                            
                             </tr>
                             <tr>
-                                <td>University ID Number </td>
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Department of Study</td>
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
+                                <td>Grade </td>
                                 <td><input type="text"></td>
                             </tr>
                             <tr>
@@ -86,19 +87,12 @@ echo
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Student Name</td>	
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>University ID Number</td>
+
+                                <td>Student Name</td>
                                 <td><input type="text"></td>                            
                             </tr>
                             <tr>
-                                <td>Department of Study</td>
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
+                                <td>Grade </td>
                                 <td><input type="text"></td>
                             </tr>
                             <tr>
@@ -114,27 +108,20 @@ echo
                                 <td></td>
                             </tr>
                             <tr>
+
                                 <td>Student Name</td>
+                                <td><input type="text"></td>                            
+                            </tr>
+                            <tr>
+                                <td>Grade </td>
                                 <td><input type="text"></td>
                             </tr>
                             <tr>
-                                <td>University ID Number </td>
+                                <td>Email Address</td>	
                                 <td><input type="text"></td>
                             </tr>
                             <tr>
-                                <td>Department of Study</td>
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Email Address</td>
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Contact Number</td>
+                                <td>Contact Number</td>	
                                 <td><input type="text"></td>
                             </tr>
                             <tr>
@@ -142,19 +129,12 @@ echo
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Student Name</td>	
-                                <td><input type="text"></td>
+
+                                <td>Student Name</td>
+                                <td><input type="text"></td>                            
                             </tr>
                             <tr>
-                                <td>University ID Number</td>
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Department of Study</td>
-                                <td><input type="text"></td>
-                            </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
+                                <td>Grade </td>
                                 <td><input type="text"></td>
                             </tr>
                             <tr>

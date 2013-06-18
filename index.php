@@ -91,6 +91,52 @@
                 {width:'toggle'}
             );
             }
+            function about(){
+                $("#main").animate(
+                {height:'toggle'},1000
+            );
+                $("#sidebar").animate(
+                {width:'toggle'},1000
+            );    
+                $.ajax({
+                    type: "POST",
+                    url: "about.php",
+                    data: {}
+                }).done(function( result ) {
+                    $("#main").html(result);
+                });
+                $("#main").animate(
+                {height:'toggle'}
+                
+                
+            ).delay(500);
+                $("#sidebar").animate(
+                {width:'toggle'}
+            );
+            }
+            function contact(){
+                $("#main").animate(
+                {height:'toggle'},1000
+            );
+                $("#sidebar").animate(
+                {width:'toggle'},1000
+            );    
+                $.ajax({
+                    type: "POST",
+                    url: "contact.php",
+                    data: {}
+                }).done(function( result ) {
+                    $("#main").html(result);
+                });
+                $("#main").animate(
+                {height:'toggle'}
+                
+                
+            ).delay(500);
+                $("#sidebar").animate(
+                {width:'toggle'}
+            );
+            }
             
             function challenge_school(){
                 $("#main").animate(
@@ -150,6 +196,30 @@
                 $.ajax({
                     type: "POST",
                     url: "register_undergrad.php",
+                    data: {}
+                }).done(function( result ) {
+                    $("#main").html(result);
+                    
+                });
+                $("#main").animate(
+                {height:'toggle'}
+                
+                
+            ).delay(500);
+                $("#sidebar").animate(
+                {width:'toggle'}
+            );
+            }
+            function register_school(){
+                $("#main").animate(
+                {height:'toggle'},1000
+            );
+                $("#sidebar").animate(
+                {width:'toggle'},1000
+            );    
+                $.ajax({
+                    type: "POST",
+                    url: "register_school.php",
                     data: {}
                 }).done(function( result ) {
                     $("#main").html(result);
@@ -241,7 +311,7 @@
             <div id="sidebar" >
                 <ul id="menu">
                     <li> <a href="#" onclick="home()">Home</a> </li>
-                    <li> <a href="#">About</a> </li>
+                    <li> <a href="#" onclick ="about()">About</a> </li>
                     <li> <a href="#">Challenge</a>
                         <ul>
                             <li> <a href="#" onclick="challenge_school()">School</a>
@@ -250,14 +320,14 @@
                     </li>
                     <li> <a href="#">Register</a>
                         <ul>
-                            <li> <a href="#">School</a>
+                            <li> <a href="#" onclick ="register_school()">School</a>
                             <li> <a href="#" onclick="register_undergrad()">UnderGraduate</a>
                         </ul>
 
                     </li>
                     <li> <a href="#">Resources</a> </li>
                     <li> <a href="#" onclick="gallery()">Gallery</a> </li>
-                    <li> <a href="#">Contact</a> </li>
+                    <li> <a href="#" onclick ="contact()">Contact</a> </li>
                 </ul>
             </div>
             <div id="container2" style=" ;height: 400px;width: 100%;-o-background-size: cover;position: absolute;top: 70px;">

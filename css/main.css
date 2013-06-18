@@ -93,6 +93,13 @@ root {
 
 #main p{
     font-size: x-large; 
-    font-family: 'Classic Robot'; 
-    color: cornsilk;
+    font-family: 'Kefa'; 
+    color: whitesmoke;
+    text-align: justify;
+}
+#main ul{
+    font-size: x-large; 
+    font-family: 'Kefa';
+    text-align: justify;
+    color: gold;
 }
