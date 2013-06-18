@@ -1,0 +1,98 @@
+/* 
+    Document   : main
+    Created on : Jun 12, 2013, 10:56:07 AM
+    Author     : Pancha
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#sidebar{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 20px;    
+    z-index: 10;
+}
+
+#menu {
+    width:100%;
+    list-style:none;
+    padding:0;
+    margin:0;
+    top:0;
+    position:relative;
+    height:100%;
+    width:300px;
+}
+
+#menu li {
+    padding:20px 50px;
+    text-align:left;
+    display:block;
+    cursor:hand;
+    cursor:pointer;
+}
+#menu li ul li{
+    padding:20px 50px;
+    text-align:left;
+    display:block;
+    cursor:pointer;
+    
+}
+
+#menu li ul{
+    width:100%;
+    list-style:none;
+    padding:0;
+    margin:0;
+    top:20px;
+    position:relative;
+    height:0px;
+    width:400px;
+    visibility: hidden;
+    
+}
+
+#menu li ul li a {
+    background:url() repeat #1f1f1f;
+    
+    color:#ddd;
+    font-family:Starjedi,War Machine,helvetica, arial, verdana;
+    font-size:20px;
+    font-weight:900;
+    display:inline;
+    padding:20px 18px 15px 20px;
+    text-decoration:none;
+}
+
+#menu li a {
+    background:url() repeat #1f1f1f;
+    
+    color:#ddd;
+    font-family:Starjedi,War Machine,helvetica, arial, verdana;
+    font-size:20px;
+    font-weight:900;
+    display:inline;
+    padding:20px 18px 15px 20px;
+    text-decoration:none;
+}
+
+#main table tr{
+    height: 50px;
+}
+
+#main p{
+    font-size: x-large; 
+    font-family: 'Classic Robot'; 
+    color: cornsilk;
+}

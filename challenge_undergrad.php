@@ -1,0 +1,17 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+echo
+'<p style="font-size: x-large; font-family: \'Classic Robot\'; text-align: justify; color: cornsilk">Undergraduate Level</p>'.
+'<p style="font-size: x-large; font-family: \'Classic Robot\'; text-align: justify; color: cornsilk">The robots will have to follow a path and take decisions at the junctions. There will be messages along the path which will give some hints about coin piles. The coin piles are also marked on the arena. The robots have to go over coin piles in order to collect coin values (Don’t worry. You don’t have to physically collect them). The robot who comes to the destination point with maximum amount of total coin values will be the WINNER!!!!</p>'.
+'<p style="font-size: x-large; font-family: \'Classic Robot\'; text-align: justify; color: cornsilk">Complete Description can be found here <LINK></p>'.
+'<p style="font-size: x-large; font-family: \'Classic Robot\'; text-align: justify; color: cornsilk">And the winners will be awarded as follows:</p>'.
+'<ul style="font-size: x-large; font-family: \'Classic Robot\'; text-align: justify; color: cornsilk">'.
+'<li>First Place: 00000/=</li>'.
+'<li>Second Place: 00000/=</li>'.
+'<li>Third Place: 00000/=</li>'.
+'</ul>';
+?>
