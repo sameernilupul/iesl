@@ -31,7 +31,7 @@
                 }); 
             }
             $(document).ready(function() {  
-                var left = window.innerWidth/2-130;
+                var left = window.innerWidth/2-230;
                 //Background color, mouseover and mouseout
                 var colorOver = '#31b8da';
                 var colorOut = '#1f1f1f';
@@ -46,8 +46,8 @@
 		
                     //mouse over LI and look for A element for transition
                     $(this).find('a')
-                    .animate( { paddingLeft: padLeft, paddingRight: padRight} )
-                    .css('background-color','#31b8da');
+                    .animate( { paddingLeft: padLeft, paddingRight: padRight},500 )
+                    .css('background-color','gray');
                     
                     $(this).find('ul').css("visibility", 'visible');
                     $(this).find('ul').css("height", '100%');
@@ -56,7 +56,7 @@
 	
                     //mouse oout LI and look for A element and discard the mouse over transition
                     $(this).find('a')
-                    .animate( { paddingRight: "18px" } )
+                    .animate( { paddingRight: "18px" },500 )
                     .css('background-color','#1f1f1f');
                     $(this).find('ul').css("visibility", 'hidden');
                     $(this).find('ul').css("height", '0');
