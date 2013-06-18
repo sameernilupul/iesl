@@ -14,27 +14,27 @@ echo
                             <tr>
 
                                 <td>Robot Name</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="robot"></td>
                             </tr>
                             <tr>
                                 <td>School Name</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="school"></td>
                             </tr>
                             <tr>
                                 <td>School Address</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="address"></td>
                             </tr>
                             <tr>
                                 <td>Name of Principal</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="principal"></td>
                             </tr>
                             <tr>
                                 <td>Name of Teacher in Charge</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="teacher"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number of Teacher in Charge</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="teacherno"></td>
                             </tr>
                             <tr>
                                 <td>Team Members</td>
@@ -47,19 +47,19 @@ echo
                             <tr>
 
                                 <td>Student Name</td>
-                                <td><input type="text"></td>                            
+                                <td><input type="text" id="mem1name"></td>                            
                             </tr>
                             <tr>
                                 <td>Grade </td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem1grade"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem1email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem1no"></td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 2</td>	
@@ -68,19 +68,19 @@ echo
                             <tr>
 
                                 <td>Student Name</td>
-                                <td><input type="text"></td>                            
+                                <td><input type="text" id="mem2name"></td>                            
                             </tr>
                             <tr>
                                 <td>Grade </td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem2grade"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem2email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem2no"></td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 3</td>	
@@ -89,19 +89,19 @@ echo
                             <tr>
 
                                 <td>Student Name</td>
-                                <td><input type="text"></td>                            
+                                <td><input type="text" id="mem3name"></td>                            
                             </tr>
                             <tr>
                                 <td>Grade </td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem3grade"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem3email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem3no"></td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 4</td>
@@ -110,19 +110,19 @@ echo
                             <tr>
 
                                 <td>Student Name</td>
-                                <td><input type="text"></td>                            
+                                <td><input type="text" id="mem4name"></td>                            
                             </tr>
                             <tr>
                                 <td>Grade </td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem4grade"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem4email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem4no"></td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 5</td>
@@ -131,19 +131,19 @@ echo
                             <tr>
 
                                 <td>Student Name</td>
-                                <td><input type="text"></td>                            
+                                <td><input type="text" id="mem5name"></td>                            
                             </tr>
                             <tr>
                                 <td>Grade </td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem5grade"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem5email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem5no"></td>
                             </tr>
                             <tr>
                                 <td></td>
