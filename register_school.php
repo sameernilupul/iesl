@@ -147,7 +147,7 @@ echo
                             </tr>
                             <tr>
                                 <td></td>
-                                <td><input type="submit" value="Submit"/></td>
+                                <td><input type="submit" value="Submit" onclick="register_school_submit()"/></td>
                             </tr>
                         </table>
                         

@@ -302,6 +302,93 @@
                 fo.write("main");
             }
             
+            function register_school_submit(){
+                var robot = $("#robot").val();
+                var school = $("#school").val();
+                var address = $("#address").val();
+                var principal = $("#principal").val();
+                var teacher = $("#teacher").val();
+                var teacherno = $("#teacherno").val();
+                
+                var mem1name = $("#mem1name").val();
+                var mem1grade = $("#mem1grade").val();
+                var mem1email = $("#mem1email").val();
+                var mem1no = $("#mem1no").val();
+                
+                var mem2name = $("#mem2name").val();
+                var mem2grade = $("#mem2grade").val();
+                var mem2email = $("#mem2email").val();
+                var mem2no = $("#mem2no").val();
+                
+                var mem3name = $("#mem3name").val();
+                var mem3grade = $("#mem3grade").val();
+                var mem3email = $("#mem3email").val();
+                var mem3no = $("#mem3no").val();
+                
+                var mem4name = $("#mem4name").val();
+                var mem4grade = $("#mem4grade").val();
+                var mem4email = $("#mem4email").val();
+                var mem4no = $("#mem4no").val();
+                
+                var mem5name = $("#mem5name").val();
+                var mem5grade = $("#mem5grade").val();
+                var mem5email = $("#mem5email").val();
+                var mem5no = $("#mem5no").val();
+                
+                
+                
+                
+                $.ajax({
+                    type: "POST",
+                    url: "register_school_submit.php",
+                    data: {
+                        
+                 robot : robot,
+                 school : school,
+                 address : address ,
+                 principal : principal,
+                 teacher : teacher ,
+                 teacherno : teacherno,
+                
+                 mem1name : mem1name,
+                 mem1grade : mem1grade,
+                 mem1email : mem1email ,
+                 mem1no :  mem1no,
+                
+                 mem2name : mem2name,
+                 mem2grade : mem2grade,
+                 mem2email : mem2email,
+                 mem2no : mem2no,
+                
+                 mem3name : mem3name ,
+                 mem3grade : mem3grade,
+                 mem3email : mem3email,
+                 mem3no : mem3no,
+                
+                 mem4name : mem4name,
+                 mem4grade : mem4grade,
+                 mem4email : mem4email,
+                 mem4no : mem4no,
+                
+                 mem5name : mem5name,
+                 mem5grade : mem5grade,
+                 mem5email : mem5email,
+                 mem5no :mem5no
+                    }
+                }).done(function( result ) {  
+                    $("#main").html(result);
+                    alert(result);
+                    if(result=='success'){
+                        alert('Data successfull added');
+                    }else{
+                        alert('Form submission has beed failed. Please retry');
+                    }
+                    
+                });
+                
+                
+            }
+            
         
         </script>
     </head>
