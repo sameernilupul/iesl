@@ -377,7 +377,7 @@
                     }
                 }).done(function( result ) {  
                     $("#main").html(result);
-                    alert(result);
+                    //alert(result);
                     if(result=='success'){
                         alert('Data successfull added');
                     }else{

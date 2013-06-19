@@ -51,6 +51,6 @@ if (!mysql_query($sql,$con)) {
   die('Error: ' . mysql_error());
 }
 //$row = mysql_fetch_array($result);
-echo $today;
+//echo $today;
 echo "success";
 ?>
