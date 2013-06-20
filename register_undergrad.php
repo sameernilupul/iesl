@@ -14,11 +14,11 @@ echo
                             <tr>
 
                                 <td>Robot Name</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="robot"></td>
                             </tr>
                             <tr>
                                 <td>University Name</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="university"></td>
                             </tr>
                             <tr>
                                 <td>Team members</td>
@@ -31,27 +31,27 @@ echo
                             <tr>
 
                                 <td>Student Name</td>
-                                <td><input type="text"></td>                            
+                                <td><input type="text" id ="mem1name"></td>                            
                             </tr>
                             <tr>
                                 <td>University ID Number </td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem1index"></td>
                             </tr>
                             <tr>
                                 <td>Department of Study</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem1dept"></td>
                             </tr>
                             <tr>
                                 <td>Semester of Study</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem1sem"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem1email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem1no"></td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 2</td>	
@@ -59,27 +59,27 @@ echo
                             </tr>
                             <tr>
                                 <td>Student Name</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem2name"></td>
                             </tr>
                             <tr>
                                 <td>University ID Number </td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem2index"></td>
                             </tr>
                             <tr>
                                 <td>Department of Study</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem2dept"></td>
                             </tr>
                             <tr>
                                 <td>Semester of Study</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem2sem"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem2email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem2no"></td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 3</td>	
@@ -87,19 +87,19 @@ echo
                             </tr>
                             <tr>
                                 <td>Student Name</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem3name"></td>
                             </tr>
                             <tr>
                                 <td>University ID Number</td>
-                                <td><input type="text"></td>                            
+                                <td><input type="text" id ="mem3index"></td>                            
                             </tr>
                             <tr>
                                 <td>Department of Study</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem3dept"></td>
                             </tr>
                             <tr>
                                 <td>Semester of Study</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem3sem"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
@@ -107,7 +107,7 @@ echo
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem3no"></td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 4</td>
@@ -115,27 +115,27 @@ echo
                             </tr>
                             <tr>
                                 <td>Student Name</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem4name"></td>
                             </tr>
                             <tr>
                                 <td>University ID Number </td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem4index"></td>
                             </tr>
                             <tr>
                                 <td>Department of Study</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem4dept"></td>
                             </tr>
                             <tr>
                                 <td>Semester of Study</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem4sem"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem4email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem4no"></td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 5</td>
@@ -143,27 +143,27 @@ echo
                             </tr>
                             <tr>
                                 <td>Student Name</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem5name"></td>
                             </tr>
                             <tr>
                                 <td>University ID Number</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem5index"></td>
                             </tr>
                             <tr>
                                 <td>Department of Study</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem5dept"></td>
                             </tr>
                             <tr>
                                 <td>Semester of Study</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem5sem"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem5email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id ="mem5no"></td>
                             </tr>
                             <tr>
                                 <td></td>
