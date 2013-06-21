@@ -76,7 +76,7 @@
                 
                 //$('#main').jScrollPane();
                 
-                //home();
+                home();
                 
             });
             
@@ -527,7 +527,7 @@
     </head>
     <body background="images/background.jpg">
         <div id="title" style="width: 100%;height: 50px;top: 0px;position: absolute"></div>
-        <div id="content" style="width: 100%;height: 600px;top: 50px;position: absolute">
+        <div id="content" style="width: 100%;height: 600px;top: 150px;position: absolute">
             <div id="sidebar" >
                 <ul id="menu">
                     <li> <a href="#" onclick="home()">Home</a> </li>
