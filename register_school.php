@@ -14,27 +14,27 @@ echo
                             <tr>
 
                                 <td>Robot Name</td>
-                                <td><input type="text" id="robot"></td>
+                                <td><input type="password" id="robot" required></input></td>
                             </tr>
                             <tr>
                                 <td>School Name</td>
-                                <td><input type="text" id="school"></td>
+                                <td><input type="text" id="school" required="required"></input></td>
                             </tr>
                             <tr>
                                 <td>School Address</td>
-                                <td><input type="text" id="address"></td>
+                                <td><input type="text" id="address" required="required"></td>
                             </tr>
                             <tr>
                                 <td>Name of Principal</td>
-                                <td><input type="text" id="principal"></td>
+                                <td><input type="text" id="principal" required="required"></td>
                             </tr>
                             <tr>
                                 <td>Name of Teacher in Charge</td>
-                                <td><input type="text" id="teacher"></td>
+                                <td><input type="text" id="teacher" required="required"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number of Teacher in Charge</td>
-                                <td><input type="text" id="teacherno"></td>
+                                <td><input type="text" id="teacherno" required="required"></td>
                             </tr>
                             <tr>
                                 <td>Team Members</td>
@@ -47,19 +47,19 @@ echo
                             <tr>
 
                                 <td>Student Name</td>
-                                <td><input type="text" id="mem1name"></td>                            
+                                <td><input type="text" id="mem1name" required="required"></td>                            
                             </tr>
                             <tr>
                                 <td>Grade </td>
-                                <td><input type="text" id="mem1grade"></td>
+                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem1grade" required="required"></td>
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text" id="mem1email"></td>
+                                <td><input type="email" id="mem1email" required="required"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
-                                <td><input type="text" id="mem1no"></td>
+                                <td><input type="text" id="mem1no" required="required"></td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 2</td>	
@@ -76,7 +76,7 @@ echo
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text" id="mem2email"></td>
+                                <td><input type="email" id="mem2email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
@@ -97,7 +97,7 @@ echo
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text" id="mem3email"></td>
+                                <td><input type="email" id="mem3email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
@@ -118,7 +118,7 @@ echo
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text" id="mem4email"></td>
+                                <td><input type="email" id="mem4email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
@@ -139,7 +139,7 @@ echo
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text" id="mem5email"></td>
+                                <td><input type="email" id="mem5email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
