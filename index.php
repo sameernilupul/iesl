@@ -49,8 +49,8 @@
                     .animate( { paddingLeft: padLeft, paddingRight: padRight},500 )
                     .css('background-color','gray');
                     
-                    $(this).find('ul').css("visibility", 'visible');
-                    $(this).find('ul').css("height", '100%');
+                    //$(this).find('ul').css("visibility", 'visible');
+                    //$(this).find('ul').css("height", '100%');
 
                 }).mouseout(function () {
 	
@@ -58,9 +58,21 @@
                     $(this).find('a')
                     .animate( { paddingRight: "18px" },500 )
                     .css('background-color','#1f1f1f');
-                    $(this).find('ul').css("visibility", 'hidden');
-                    $(this).find('ul').css("height", '0');
+                    //$(this).find('ul').css("visibility", 'hidden');
+                    //$(this).find('ul').css("height", '0');
+                }).click(function(){
+                    $(this).find('ul').css("visibility", 'visible');
+                    $(this).find('ul').css("height", '100%');
                 }); 
+                
+                $('#menu li ul').mouseout(function (){
+                    $(this).css("visibility", 'hidden');
+                    $(this).css("height", '0');
+                });
+                $('#menu li ul').mouseover(function (){
+                    $(this).css("visibility", 'visible');
+                    $(this).css("height", '100%');
+                });
                 
                 //$('#main').jScrollPane();
                 
@@ -381,7 +393,7 @@
                     if(result=='success'){
                         alert('Data successfull added');
                     }else{
-                        alert('Form submission has beed failed. Please retry');
+                        alert('Form submission has beed failed. Robot name already exists');
                     }
                     
                 });
@@ -479,11 +491,35 @@
                     if(result=='success'){
                         alert('Data successfull added');
                     }else{
-                        alert('Form submission has beed failed. Please retry');
+                        alert('Form submission has beed failed. Robot name already exists');
                     }
                     
                 });
             
+            }
+            
+            function resources(){
+                $("#main").animate(
+                {height:'toggle'},1000
+            );
+                $("#sidebar").animate(
+                {width:'toggle'},1000
+            );    
+                $.ajax({
+                    type: "POST",
+                    url: "resources.php",
+                    data: {}
+                }).done(function( result ) {
+                    $("#main").html(result);
+                });
+                $("#main").animate(
+                {height:'toggle'}
+                
+                
+            ).delay(500);
+                $("#sidebar").animate(
+                {width:'toggle'}
+            );
             }
             
         
@@ -509,7 +545,7 @@
                         </ul>
 
                     </li>
-                    <li> <a href="#">Resources</a> </li>
+                    <li> <a href="#" onclick="resources()">Resources</a> </li>
                     <li> <a href="#" onclick="gallery()">Gallery</a> </li>
                     <li> <a href="#" onclick ="contact()">Contact</a> </li>
                 </ul>
