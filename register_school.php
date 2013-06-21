@@ -14,7 +14,7 @@ echo
                             <tr>
 
                                 <td>Robot Name</td>
-                                <td><input type="password" id="robot"></input></td>
+                                <td><input type="text" id="robot"></input></td>
                             </tr>
                             <tr>
                                 <td>School Name</td>
