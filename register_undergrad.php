@@ -103,7 +103,7 @@ echo
                             </tr>
                             <tr>
                                 <td>Email Address</td>	
-                                <td><input type="text"></td>
+                                <td><input type="text" id="mem3email"></td>
                             </tr>
                             <tr>
                                 <td>Contact Number</td>	
@@ -167,7 +167,7 @@ echo
                             </tr>
                             <tr>
                                 <td></td>
-                                <td><input type="submit" value="Submit"/></td>
+                                <td><input type="submit" value="Submit" onclick="register_undergrad_submit()"/></td>
                             </tr>
                         </table>
                         
