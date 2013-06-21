@@ -1,5 +1,5 @@
 <?php
-
+echo '<p style ="color: gold;">Registeration for School Catagory</p>';
 echo 
 '<p>Fill the following form and submit or <a href="res/IESL-RoboGames-2013-Undergraduate-Application.pdf"> download the application form </a> and send the completed applications to IESL</p>
                     <p>(1) By E-mail to amilastbmmv@gmail.com as MS Word attachments, with the subject line "Robo Games 2013"</p>

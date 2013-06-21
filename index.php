@@ -351,39 +351,39 @@
                 var validated= true;
                 if(robot==""){
                     validated=false;
-                    alert("Robot name cannot be empty");
+                    alert("Robot name cannot be left  empty");
                     $("#robot").focus();                    
                 }else if(school==""){
                     validated=false;
-                    alert("School name cannot be empty");
+                    alert("School name cannot be left empty");
                     $("#school").focus();                    
                 }else if(address==""){
                     validated=false;
-                    alert("Address cannot be empty");
+                    alert("Address cannot be left empty");
                     $("#address").focus();                    
                 }else if(principal==""){
                     validated=false;
-                    alert("Principal name cannot be empty");
+                    alert("Principal name cannot be left empty");
                     $("#principal").focus();                    
                 }else if(teacher==""){
                     validated=false;
-                    alert("Teacher name cannot be empty");
+                    alert("Teacher name cannot be left empty");
                     $("#teacher").focus();                    
                 }else if(mem1name==""){
                     validated=false;
-                    alert("Leader's name cannot be empty");
+                    alert("Leader's name cannot be left empty");
                     $("#mem1name").focus();                    
                 }else if(mem1grade==""){
                     validated=false;
-                    alert("Leader's grade cannot be empty");
+                    alert("Leader's grade cannot be left empty");
                     $("#mem1grade").focus();                    
                 }else if(mem1email==""){
                     validated=false;
-                    alert("Leader's email cannot be empty");
+                    alert("Leader's email cannot be left empty");
                     $("#mem1email").focus();                    
                 }else if(mem1no==""){
                     validated=false;
-                    alert("Leader's phone no cannot be empty");
+                    alert("Leader's phone no cannot be left empty");
                     $("#mem1no").focus();                    
                 }
                 
@@ -477,7 +477,42 @@
                 var mem5sem = $('#mem5sem').val();
                 var mem5email = $('#mem5email').val();
                 var mem5no = $('#mem5no').val();
+                var validated= true;
+                if(robot==""){
+                    validated=false;
+                    alert("Robot name cannot be left empty");
+                    $("#robot").focus();                    
+                }else if(university==""){
+                    validated=false;
+                    alert("University name cannot be left  empty");
+                    $("#university").focus();                    
+                }else if(mem1name==""){
+                    validated=false;
+                    alert("Leader's name cannot be left empty");
+                    $("#mem1name").focus();                    
+                }else if(mem1index==""){
+                    validated=false;
+                    alert("Leader's index no cannot be left empty");
+                    $("#mem1index").focus();                    
+                }else if(mem1dept==""){
+                    validated=false;
+                    alert("Leader's department cannot be left empty");
+                    $("#mem1dept").focus();                    
+                }else if(mem1sem==""){
+                    validated=false;
+                    alert("Leader's demester of study cannot be left empty");
+                    $("#mem1sem").focus();                    
+                }else if(mem1email==""){
+                    validated=false;
+                    alert("Leader's email address cannot be left empty");
+                    $("#mem1email").focus();                    
+                }else if(mem1no==""){
+                    validated=false;
+                    alert("Leader's phone no cannot be left empty");
+                    $("#mem1no").focus();                    
+                }
                 
+                if(validated)
                 $.ajax({
                     type: "POST",
                     url: "register_undergrad_submit.php",
