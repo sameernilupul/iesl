@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -273,24 +273,24 @@
                 // To use local images defined in an XML document, use this block		
                 fo.addVariable("useFlickr", "false");
                 fo.addVariable("xmlURL", "gallery.xml");
-                fo.addVariable("maxJPGSize","640");
+                fo.addVariable("maxJPGSize","720");
 		
                 //GENERAL OPTIONS		
                 fo.addVariable("useReloadButton", "false");
-                fo.addVariable("columns", "3");
-                fo.addVariable("rows", "3");
-                //fo.addVariable("showFullscreenOption", "true");
+                fo.addVariable("columns", "4");
+                fo.addVariable("rows", "4");
+                fo.addVariable("showFullscreenOption", "true");
                 //fo.addVariable("showFlipButton", "true");
                 //fo.addVariable("showLinkButton", "true");		
                 //fo.addVariable("linkLabel", "View image info");
                 //fo.addVariable("frameColor", "0xFF0000");
-                //fo.addVariable("backColor", "0xDDDDDD");
+                fo.addVariable("backColor", "0xDDDDDD");
                 //fo.addVariable("bkgndInnerColor", "0xFF00FF");
                 //fo.addVariable("bkgndOuterColor", "0x0000FF");				
                 //fo.addVariable("langAbout", "About");				
 		
                 //PRO OPTIONS
-                //fo.addVariable("frameWidth", "40");
+                //fo.addVariable("frameWidth", "100");
                 //fo.addVariable("zoomedInDistance", "1400");
                 //fo.addVariable("zoomedOutDistance", "7500");
                 //fo.addVariable("fontName", "Times");
@@ -527,7 +527,7 @@
     </head>
     <body background="images/background.jpg">
         <div id="title" style="width: 100%;height: 50px;top: 0px;position: absolute"></div>
-        <div id="content" style="width: 100%;height: 600px;top: 50px;position: absolute">
+        <div id="content" style="width: 100%;height: 600px;top: 150px;position: absolute">
             <div id="sidebar" >
                 <ul id="menu">
                     <li> <a href="#" onclick="home()">Home</a> </li>
@@ -559,8 +559,8 @@
 
                 <img src="images/back.png" height="100%"style="display: block; margin: 0 auto; top: 20px" id="baseimg"></img>
                 <div id="main" style="position: absolute;width: 700px;height: 520px;top: 35px;overflow:  auto">      
-
-
+                    
+                    
                 </div>
             </div>
         </div>
