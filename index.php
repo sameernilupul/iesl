@@ -520,7 +520,7 @@
                 $("#sidebar").animate(
                 {width:'toggle'}
             );
-            }
+            }            
             
         
         </script>
