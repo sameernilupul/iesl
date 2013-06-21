@@ -41,8 +41,8 @@ $mem5no = $_POST['mem5no'];
 
 
 
-$con = mysql_connect("localhost", "root", "fun123");
-$db = mysql_select_db("iesl", $con);
+$con = mysql_connect("192.248.8.3", "idea", "suneth");
+$db = mysql_select_db("idea_challenge", $con);
 $today = date("Y-m-d");
 
 $sql = "INSERT INTO std_reg (robot,school,address,principal,teacher,teacherno,mem1name,mem1grade,mem1email,mem1no,mem2name,mem2grade,mem2email,mem2no,mem3name,mem3grade,mem3email,mem3no,mem4name,mem4grade,mem4email,mem4no,mem5name,mem5grade,mem5email,mem5no,applied_date) values('" . $robot . "','" . $school . "','" . $address . "','" . $principal . "','" . $teacher . "','" . $teacherno . "','" . $mem1name . "','" . $mem1grade . "','" . $mem1email . "','" . $mem1no . "','" . $mem2name . "','" . $mem2grade . "','" . $mem2email . "','" . $mem2no . "','" . $mem3name . "','" . $mem3grade . "','" . $mem3email . "','" . $mem3no . "','" . $mem4name . "','" . $mem4grade . "','" . $mem4email . "','" . $mem4no . "','" . $mem5name . "','" . $mem5grade . "','" . $mem5email . "','" . $mem5no . "','".$today."')";

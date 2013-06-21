@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS `std_reg` (
   `mem5email` varchar(100) default NULL,
   `mem5no` varchar(20) default NULL,
   `applied_date` date NOT NULL,
-  PRIMARY KEY  (`id`)
+  PRIMARY KEY  (`id`),
   UNIQUE KEY `robot` (`robot`)	
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
 
