@@ -41,7 +41,7 @@ $mem5no = $_POST['mem5no'];
 
 
 
-$con = mysql_connect("192.248.8.3", "idea", "suneth");
+$con = mysql_connect("localhost", "idea_challenge", "Xhallenge0099-123Zx");
 $db = mysql_select_db("idea_challenge", $con);
 $today = date("Y-m-d");
 
