@@ -429,7 +429,8 @@
                     $("#main").html(result);
                     //alert(result);
                     if(result=='success'){
-                        alert('Data successfull added');
+                        alert('Data successfully added');
+                        home();
                     }else{
                         alert('Form submission has beed failed. Robot name already exists');
                     }
@@ -562,7 +563,8 @@
                     $("#main").html(result);
                     //alert(result);
                     if(result=='success'){
-                        alert('Data successfull added');
+                        alert('Data successfully added');
+                        home();
                     }else{
                         alert('Form submission has beed failed. Robot name already exists');
                     }
