@@ -85,7 +85,7 @@
                 {height:'toggle'},1000
             );
                 $("#sidebar").animate(
-                {width:'toggle'},1000
+                //{width:'toggle'},1000
             );    
                 $.ajax({
                     type: "POST",
@@ -100,7 +100,7 @@
                 
             ).delay(500);
                 $("#sidebar").animate(
-                {width:'toggle'}
+                //{width:'toggle'}
             );
             }
             function about(){
@@ -108,7 +108,7 @@
                 {height:'toggle'},1000
             );
                 $("#sidebar").animate(
-                {width:'toggle'},1000
+                //{width:'toggle'},1000
             );    
                 $.ajax({
                     type: "POST",
@@ -123,7 +123,7 @@
                 
             ).delay(500);
                 $("#sidebar").animate(
-                {width:'toggle'}
+                //{width:'toggle'}
             );
             }
             function contact(){
@@ -131,7 +131,7 @@
                 {height:'toggle'},1000
             );
                 $("#sidebar").animate(
-                {width:'toggle'},1000
+                //{width:'toggle'},1000
             );    
                 $.ajax({
                     type: "POST",
@@ -146,7 +146,7 @@
                 
             ).delay(500);
                 $("#sidebar").animate(
-                {width:'toggle'}
+                //{width:'toggle'}
             );
             }
             
@@ -155,7 +155,7 @@
                 {height:'toggle'},1000
             );
                 $("#sidebar").animate(
-                {width:'toggle'},1000
+                //{width:'toggle'},1000
             );    
                 $.ajax({
                     type: "POST",
@@ -170,7 +170,7 @@
                 
             ).delay(500);
                 $("#sidebar").animate(
-                {width:'toggle'}
+                //{width:'toggle'}
             );
             }
             
@@ -179,7 +179,7 @@
                 {height:'toggle'},1000
             );
                 $("#sidebar").animate(
-                {width:'toggle'},1000
+                //{width:'toggle'},1000
             );    
                 $.ajax({
                     type: "POST",
@@ -194,7 +194,7 @@
                 
             ).delay(500);
                 $("#sidebar").animate(
-                {width:'toggle'}
+                //{width:'toggle'}
             );
             }
             
@@ -203,7 +203,7 @@
                 {height:'toggle'},1000
             );
                 $("#sidebar").animate(
-                {width:'toggle'},1000
+                //{width:'toggle'},1000
             );    
                 $.ajax({
                     type: "POST",
@@ -219,7 +219,7 @@
                 
             ).delay(500);
                 $("#sidebar").animate(
-                {width:'toggle'}
+                //{width:'toggle'}
             );
             }
             function register_school(){
@@ -227,7 +227,7 @@
                 {height:'toggle'},1000
             );
                 $("#sidebar").animate(
-                {width:'toggle'},1000
+                //{width:'toggle'},1000
             );    
                 $.ajax({
                     type: "POST",
@@ -243,7 +243,7 @@
                 
             ).delay(500);
                 $("#sidebar").animate(
-                {width:'toggle'}
+               // {width:'toggle'}
             );
             }
             
@@ -347,9 +347,47 @@
                 var mem5email = $("#mem5email").val();
                 var mem5no = $("#mem5no").val();
                 
+                //alert("Robot name cannot be empty");
+                var validated= true;
+                if(robot==""){
+                    validated=false;
+                    alert("Robot name cannot be empty");
+                    $("#robot").focus();                    
+                }else if(school==""){
+                    validated=false;
+                    alert("School name cannot be empty");
+                    $("#school").focus();                    
+                }else if(address==""){
+                    validated=false;
+                    alert("Address cannot be empty");
+                    $("#address").focus();                    
+                }else if(principal==""){
+                    validated=false;
+                    alert("Principal name cannot be empty");
+                    $("#principal").focus();                    
+                }else if(teacher==""){
+                    validated=false;
+                    alert("Teacher name cannot be empty");
+                    $("#teacher").focus();                    
+                }else if(mem1name==""){
+                    validated=false;
+                    alert("Leader's name cannot be empty");
+                    $("#mem1name").focus();                    
+                }else if(mem1grade==""){
+                    validated=false;
+                    alert("Leader's grade cannot be empty");
+                    $("#mem1grade").focus();                    
+                }else if(mem1email==""){
+                    validated=false;
+                    alert("Leader's email cannot be empty");
+                    $("#mem1email").focus();                    
+                }else if(mem1no==""){
+                    validated=false;
+                    alert("Leader's phone no cannot be empty");
+                    $("#mem1no").focus();                    
+                }
                 
-                
-                
+                if(validated)
                 $.ajax({
                     type: "POST",
                     url: "register_school_submit.php",
@@ -503,7 +541,7 @@
                 {height:'toggle'},1000
             );
                 $("#sidebar").animate(
-                {width:'toggle'},1000
+                //{width:'toggle'},1000
             );    
                 $.ajax({
                     type: "POST",
@@ -518,7 +556,7 @@
                 
             ).delay(500);
                 $("#sidebar").animate(
-                {width:'toggle'}
+                //{width:'toggle'}
             );
             }            
             
@@ -564,6 +602,6 @@
                 </div>
             </div>
         </div>
-        <div id="footer" style="width: 100%;height: 50px;top: 650px;position: absolute"></div>
+        <div id="footer" style="width: 100%;height: 50px;top: 750px;position: absolute"></div>
     </body>
 </html>
