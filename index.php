@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>IESL Robogames 2013</title>
         <style type="text/css">
-            body  {margin:0;padding:0;background-color:#000000;font-size:0;overflow:hidden}
+            body  {margin:0;padding:0;background-color:#000000;font-size:0}
             canvas{width: 100%;height: 600px;top: 150px;position: absolute;background-color:black;overflow:hidden; opacity:0.7;z-index: 0}
         </style>
         <link href="css/main.css" rel="stylesheet" type="text/css">  
