@@ -67,16 +67,22 @@
                     //$(this).find('ul').css("height", '0');
                 }).click(function(){
                     
-                    
-                    $("#menu li").each(function (i) {
-                        $(this).find('ul').css("visibility", 'hidden');
-                        $(this).find('ul').css("height", '0');
-                    });
-                    $(this).find('ul').css("visibility", 'visible');
-                    //$(this).find('ul').css("height", '50%');
-                    $(this).find('ul').animate({
-                        height : '35%'
-                    });
+                    if($(this).find('ul').css("visibility")!="visible" && $(this).parent().parent().get(0).tagName!="LI"){
+                        $("#menu li").each(function (i) {
+                            
+                            $(this).find('ul').animate({
+                                height : '0%'
+                            });
+                            $(this).find('ul').css("visibility", 'hidden');
+                            $(this).find('ul').css("height", '0');
+                        });
+                        
+                        //$(this).find('ul').css("height", '50%');
+                        $(this).find('ul').animate({
+                            height : '35%'
+                        });
+                        $(this).find('ul').css("visibility", 'visible');
+                    }
                 }); 
                 
                 $('#menu li ul').mouseout(function (){
