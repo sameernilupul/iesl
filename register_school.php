@@ -9,35 +9,42 @@ echo
                         Institution of Engineers, Sri Lanka<br/>
                         /15 Wijerama Mawatha<br/>
                         Colombo 07<br/></p>
-                    <form action="">    
+                    <form class ="form" action="">    
                         <table style="font-size: x-large; font-family: \'Kefa\'; color: whitesmoke;margin: 0 auto">
+                            <td><p style ="color: gold;">General Details</p></td>
                             <tr>
-
-                                <td>Robot Name</td>
-                                <td><input type="text" id="robot"></input></td>
+                                <td><input type="text" id="robot"></input>
+                                <label for="name">Robot Name</label> 
+                                </td>          
                             </tr>
                             <tr>
-                                <td>School Name</td>
-                                <td><input type="text" id="school"></input></td>
+                                <td><input type="text" id="school"></input>
+                                <label for="name">School Name</label> 
+                                </td>
                             </tr>
                             <tr>
-                                <td>School Address</td>
-                                <td><input type="text" id="address"></td>
+                                <td><input type="text" id="address">
+                                <label for="name">School Address</label>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Name of Principal</td>
-                                <td><input type="text" id="principal"></td>
+                                <td><input type="text" id="principal">
+                                <label for="name">Name of Principal</label>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Name of Teacher in Charge</td>
-                                <td><input type="text" id="teacher"></td>
+                                <td><input type="text" id="teacher">
+                                <label for="name">Teacher in Charge</label>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Contact Number of Teacher in Charge</td>
-                                <td><input type="text" id="teacherno"></td>
+                                <td><input type="text" id="teacherno">
+                                <label for="name">Contact No</label>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Team Members</td>
+                                <br/>
+                                <td><p style ="color: gold;">Team Members</p></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -46,62 +53,77 @@ echo
                             </tr>
                             <tr>
 
-                                <td>Student Name</td>
-                                <td><input type="text" id="mem1name"></td>                            
+                                <td><input type="text" id="mem1name">
+                                <label for="name">Student Name</label>
+                                </td> 
+                                
                             </tr>
                             <tr>
-                                <td>Grade </td>
-                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem1grade"></td>
+                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem1grade">
+                                <label for="name">Grade</label>
+                                </td> 
+                            </tr>
+                            <tr>	
+                                <td><input type="email" id="mem1email">
+                                <label for="name">Email Address</label>
+                                </td> 
                             </tr>
                             <tr>
-                                <td>Email Address</td>	
-                                <td><input type="email" id="mem1email"></td>
+                                <td><input type="text" id="mem1no">
+                                <label for="name">Contact No</label>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Contact Number</td>	
-                                <td><input type="text" id="mem1no"></td>
-                            </tr>
-                            <tr>
-                                <td style="height:70px ">Member 2</td>	
+                                <td style="height:70px ">Member 2</td>
                                 <td></td>
                             </tr>
                             <tr>
 
-                                <td>Student Name</td>
-                                <td><input type="text" id="mem2name"></td>                            
+                                <td><input type="text" id="mem2name">
+                                <label for="name">Student Name</label>
+                                </td> 
+                                
                             </tr>
                             <tr>
-                                <td>Grade </td>
-                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem2grade"></td>
+                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem2grade">
+                                <label for="name">Grade</label>
+                                </td> 
+                            </tr>
+                            <tr>	
+                                <td><input type="email" id="mem2email">
+                                <label for="name">Email Address</label>
+                                </td> 
                             </tr>
                             <tr>
-                                <td>Email Address</td>	
-                                <td><input type="email" id="mem2email"></td>
+                                <td><input type="text" id="mem2no">
+                                <label for="name">Contact No</label>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Contact Number</td>	
-                                <td><input type="text" id="mem2no"></td>
-                            </tr>
-                            <tr>
-                                <td style="height:70px ">Member 3</td>	
+                                <td style="height:70px ">Member 3</td>
                                 <td></td>
                             </tr>
                             <tr>
 
-                                <td>Student Name</td>
-                                <td><input type="text" id="mem3name"></td>                            
+                                <td><input type="text" id="mem3name">
+                                <label for="name">Student Name</label>
+                                </td> 
+                                
                             </tr>
                             <tr>
-                                <td>Grade </td>
-                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem3grade"></td>
+                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem3grade">
+                                <label for="name">Grade</label>
+                                </td> 
+                            </tr>
+                            <tr>	
+                                <td><input type="email" id="mem3email">
+                                <label for="name">Email Address</label>
+                                </td> 
                             </tr>
                             <tr>
-                                <td>Email Address</td>	
-                                <td><input type="email" id="mem3email"></td>
-                            </tr>
-                            <tr>
-                                <td>Contact Number</td>	
-                                <td><input type="text" id="mem3no"></td>
+                                <td><input type="text" id="mem3no">
+                                <label for="name">Contact No</label>
+                                </td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 4</td>
@@ -109,20 +131,25 @@ echo
                             </tr>
                             <tr>
 
-                                <td>Student Name</td>
-                                <td><input type="text" id="mem4name"></td>                            
+                                <td><input type="text" id="mem4name">
+                                <label for="name">Student Name</label>
+                                </td> 
+                                
                             </tr>
                             <tr>
-                                <td>Grade </td>
-                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem4grade"></td>
+                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem4grade">
+                                <label for="name">Grade</label>
+                                </td> 
                             </tr>
-                            <tr>
-                                <td>Email Address</td>	
-                                <td><input type="email" id="mem4email"></td>
+                            <tr>	
+                                <td><input type="email" id="mem4email">
+                                <label for="name">Email Address</label>
+                                </td> 
                             </tr>
-                            <tr>
-                                <td>Contact Number</td>	
-                                <td><input type="text" id="mem4no"></td>
+                            <tr>	
+                                <td><input type="text" id="mem4no">
+                                <label for="name">Contact No</label>
+                                </td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 5</td>
@@ -130,24 +157,33 @@ echo
                             </tr>
                             <tr>
 
-                                <td>Student Name</td>
-                                <td><input type="text" id="mem5name"></td>                            
+                                <td><input type="text" id="mem5name">
+                                <label for="name">Student Name</label>
+                                </td> 
+                                
                             </tr>
                             <tr>
-                                <td>Grade </td>
-                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem5grade"></td>
+                                <td><input type="number" size="13" min="1" max="13" value ="8" id="mem5grade">
+                                <label for="name">Grade</label>
+                                </td> 
+                            </tr>
+                            <tr>	
+                                <td><input type="email" id="mem5email">
+                                <label for="name">Email Address</label>
+                                </td> 
                             </tr>
                             <tr>
-                                <td>Email Address</td>	
-                                <td><input type="email" id="mem5email"></td>
-                            </tr>
-                            <tr>
-                                <td>Contact Number</td>	
-                                <td><input type="text" id="mem5no"></td>
+                                <td><input type="text" id="mem5no">
+                                <label for="name">Contact No</label>
+                                </td>
                             </tr>
                             <tr>
                                 <td></td>
-                                <td><input type="submit" value="Submit" onclick="register_school_submit()"/></td>
+                                <td>
+                                <p class="submit">
+                                <input type="submit" value="Submit" onclick="register_school_submit()"/>
+                                </p >
+                                </td>
                             </tr>
                         </table>
                         
