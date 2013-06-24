@@ -20,7 +20,7 @@ root {
     width: 300px;
     height: 300px;
     top: 50px;
-    left: 0px;    
+    left: -10px;    
     z-index: 10;
 }
 
@@ -64,11 +64,11 @@ root {
 }
 
 #menu li ul li a {
-    background:url() repeat #1f1f1f;
+    background:url() repeat #00000F;
     
     color:#ddd;
     font-family:Starjedi , Star Jedi,War Machine,helvetica, arial, verdana;
-    font-size:15px;
+    font-size:20px;
     font-weight:900;
     display:inline;
     padding:5px 18px 5px 20px;
@@ -76,11 +76,11 @@ root {
 }
 
 #menu li a {
-    background:url() repeat #1f1f1f;
+    background:url() repeat #00000F;
     
     color:#ddd;
     font-family:Starjedi,Star Jedi,War Machine,helvetica, arial, verdana;
-    font-size:15px;
+    font-size:20px;
     font-weight:900;
     display:inline;
     padding:5px 18px 5px 20px;
@@ -92,8 +92,8 @@ root {
 }
 
 #main p{
-    font-size: x-large; 
-    font-family: 'Kefa'; 
+    font-size: large; 
+    font-family: 'Segoe UI'; 
     color: whitesmoke;
     text-align: justify;
 }
