@@ -625,12 +625,11 @@
                     <li> <a href="#" onclick ="contact()">Contact</a> </li>
                 </ul>
             </div>
-            <div id="container2" style=" ;height: 400px;width: 100%;-o-background-size: cover;position: absolute;top: 70px;">
+            <div id="container2" style="height: 400px;width: 100%;-o-background-size: cover;position: absolute;top: 70px;">
 
-                <img src="" height="100%"style="display: block; margin: 0 auto; top: 20px" ></img>
-
+               
             </div>
-            <div id="container" style=" ;height: 600px;width: 100%;-o-background-size: cover;position: absolute;top: 10px;">
+            <div id="container" style="height: 600px;width: 100%;-o-background-size: cover;position: absolute;top: 10px;">
 
                 <img src="images/back.png" height="100%"style="display: block; margin: 0 auto; top: 20px" id="baseimg"></img>
                 <div id="main" style="position: absolute;width: 700px;height: 520px;top: 35px;overflow:  auto">      
