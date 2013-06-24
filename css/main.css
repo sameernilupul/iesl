@@ -36,14 +36,14 @@ root {
 }
 
 #menu li {
-    padding:20px 50px;
+    padding:10px 50px;
     text-align:left;
     display:block;
     cursor:hand;
     cursor:pointer;
 }
 #menu li ul li{
-    padding:20px 50px;
+    padding:10px 50px;
     text-align:left;
     display:block;
     cursor:pointer;
@@ -68,10 +68,10 @@ root {
     
     color:#ddd;
     font-family:Starjedi , Star Jedi,War Machine,helvetica, arial, verdana;
-    font-size:20px;
+    font-size:15px;
     font-weight:900;
     display:inline;
-    padding:20px 18px 15px 20px;
+    padding:5px 18px 5px 20px;
     text-decoration:none;
 }
 
@@ -80,10 +80,10 @@ root {
     
     color:#ddd;
     font-family:Starjedi,Star Jedi,War Machine,helvetica, arial, verdana;
-    font-size:20px;
+    font-size:15px;
     font-weight:900;
     display:inline;
-    padding:20px 18px 15px 20px;
+    padding:5px 18px 5px 20px;
     text-decoration:none;
 }
 

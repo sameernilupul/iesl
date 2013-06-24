@@ -45,9 +45,9 @@
                 $('#menu li').mouseover(function (){
 		
                     //mouse over LI and look for A element for transition
-                    $(this).find('a')
-                    .animate( { paddingLeft: padLeft, paddingRight: padRight},500 )
-                    .css('background-color','gray');
+                    //$(this).find('a')
+                    //.animate( { paddingLeft: padLeft, paddingRight: padRight},500 )
+                    //.css('background-color','gray');
                     
                     //$(this).find('ul').css("visibility", 'visible');
                     //$(this).find('ul').css("height", '100%');
@@ -55,23 +55,32 @@
                 }).mouseout(function () {
 	
                     //mouse oout LI and look for A element and discard the mouse over transition
-                    $(this).find('a')
-                    .animate( { paddingRight: "18px" },500 )
-                    .css('background-color','#1f1f1f');
+                    //$(this).find('a')
+                    //.animate( { paddingRight: "18px" },500 )
+                    //.css('background-color','#1f1f1f');
                     //$(this).find('ul').css("visibility", 'hidden');
                     //$(this).find('ul').css("height", '0');
                 }).click(function(){
+                    
+                    
+                    $("#menu li").each(function (i) {
+                        $(this).find('ul').css("visibility", 'hidden');
+                        $(this).find('ul').css("height", '0');
+                    });
                     $(this).find('ul').css("visibility", 'visible');
-                    $(this).find('ul').css("height", '100%');
+                    //$(this).find('ul').css("height", '50%');
+                    $(this).find('ul').animate({
+                        height : '35%'
+                    });
                 }); 
                 
                 $('#menu li ul').mouseout(function (){
-                    $(this).css("visibility", 'hidden');
-                    $(this).css("height", '0');
+                    //$(this).css("visibility", 'hidden');
+                    //$(this).css("height", '0');
                 });
                 $('#menu li ul').mouseover(function (){
-                    $(this).css("visibility", 'visible');
-                    $(this).css("height", '100%');
+                    //$(this).css("visibility", 'visible');
+                    //$(this).css("height", '100%');
                 });
                 
                 //$('#main').jScrollPane();
@@ -243,7 +252,7 @@
                 
             ).delay(500);
                 $("#sidebar").animate(
-               // {width:'toggle'}
+                // {width:'toggle'}
             );
             }
             
@@ -388,43 +397,43 @@
                 }
                 
                 if(validated)
-                $.ajax({
-                    type: "POST",
-                    url: "register_school_submit.php",
-                    data: {
+                    $.ajax({
+                        type: "POST",
+                        url: "register_school_submit.php",
+                        data: {
                         
-                        robot : robot,
-                        school : school,
-                        address : address ,
-                        principal : principal,
-                        teacher : teacher ,
-                        teacherno : teacherno,
+                            robot : robot,
+                            school : school,
+                            address : address ,
+                            principal : principal,
+                            teacher : teacher ,
+                            teacherno : teacherno,
                 
-                        mem1name : mem1name,
-                        mem1grade : mem1grade,
-                        mem1email : mem1email ,
-                        mem1no :  mem1no,
+                            mem1name : mem1name,
+                            mem1grade : mem1grade,
+                            mem1email : mem1email ,
+                            mem1no :  mem1no,
                 
-                        mem2name : mem2name,
-                        mem2grade : mem2grade,
-                        mem2email : mem2email,
-                        mem2no : mem2no,
+                            mem2name : mem2name,
+                            mem2grade : mem2grade,
+                            mem2email : mem2email,
+                            mem2no : mem2no,
                 
-                        mem3name : mem3name ,
-                        mem3grade : mem3grade,
-                        mem3email : mem3email,
-                        mem3no : mem3no,
+                            mem3name : mem3name ,
+                            mem3grade : mem3grade,
+                            mem3email : mem3email,
+                            mem3no : mem3no,
                 
-                        mem4name : mem4name,
-                        mem4grade : mem4grade,
-                        mem4email : mem4email,
-                        mem4no : mem4no,
+                            mem4name : mem4name,
+                            mem4grade : mem4grade,
+                            mem4email : mem4email,
+                            mem4no : mem4no,
                 
-                        mem5name : mem5name,
-                        mem5grade : mem5grade,
-                        mem5email : mem5email,
-                        mem5no :mem5no
-                    }
+                            mem5name : mem5name,
+                            mem5grade : mem5grade,
+                            mem5email : mem5email,
+                            mem5no :mem5no
+                        }
                 }).done(function( result ) {  
                     $("#main").html(result);
                     //alert(result);
@@ -514,51 +523,51 @@
                 }
                 
                 if(validated)
-                $.ajax({
-                    type: "POST",
-                    url: "register_undergrad_submit.php",
-                    data: {
+                    $.ajax({
+                        type: "POST",
+                        url: "register_undergrad_submit.php",
+                        data: {
                         
                     
-                        robot : robot,
-                        university : university,
+                            robot : robot,
+                            university : university,
 
-                        mem1name : mem1name,
-                        mem1index : mem1index,
-                        mem1dept : mem1dept,
-                        mem1sem : mem1sem,
-                        mem1email : mem1email,  
-                        mem1no : mem1no,
+                            mem1name : mem1name,
+                            mem1index : mem1index,
+                            mem1dept : mem1dept,
+                            mem1sem : mem1sem,
+                            mem1email : mem1email,  
+                            mem1no : mem1no,
 
-                        mem2name : mem2name,
-                        mem2index : mem2index,
-                        mem2dept : mem2dept,
-                        mem2sem : mem2sem,
-                        mem2email : mem2email,
-                        mem2no : mem2no,
+                            mem2name : mem2name,
+                            mem2index : mem2index,
+                            mem2dept : mem2dept,
+                            mem2sem : mem2sem,
+                            mem2email : mem2email,
+                            mem2no : mem2no,
 
-                        mem3name : mem3name,
-                        mem3index : mem3index,
-                        mem3dept : mem3dept,
-                        mem3sem : mem3sem,
-                        mem3email : mem3email,
-                        mem3no : mem3no,
+                            mem3name : mem3name,
+                            mem3index : mem3index,
+                            mem3dept : mem3dept,
+                            mem3sem : mem3sem,
+                            mem3email : mem3email,
+                            mem3no : mem3no,
 
-                        mem4name : mem4name,
-                        mem4index : mem4index,
-                        mem4dept : mem4dept,
-                        mem4sem : mem4sem,
-                        mem4email : mem4email,
-                        mem4no : mem4no,
+                            mem4name : mem4name,
+                            mem4index : mem4index,
+                            mem4dept : mem4dept,
+                            mem4sem : mem4sem,
+                            mem4email : mem4email,
+                            mem4no : mem4no,
 
-                        mem5name : mem5name,
-                        mem5index : mem5index,
-                        mem5dept : mem5dept,
-                        mem5sem : mem5sem,
-                        mem5email : mem5email,
-                        mem5no :  mem5no
+                            mem5name : mem5name,
+                            mem5index : mem5index,
+                            mem5dept : mem5dept,
+                            mem5sem : mem5sem,
+                            mem5email : mem5email,
+                            mem5no :  mem5no
                 
-                    }
+                        }
                 }).done(function( result ) {  
                     $("#main").html(result);
                     //alert(result);
@@ -627,14 +636,14 @@
             </div>
             <div id="container2" style="height: 400px;width: 100%;-o-background-size: cover;position: absolute;top: 70px;">
 
-               
+
             </div>
             <div id="container" style="height: 600px;width: 100%;-o-background-size: cover;position: absolute;top: 10px;">
 
                 <img src="images/back.png" height="100%"style="display: block; margin: 0 auto; top: 20px" id="baseimg"></img>
                 <div id="main" style="position: absolute;width: 700px;height: 520px;top: 35px;overflow:  auto">      
-                    
-                    
+
+
                 </div>
             </div>
         </div>
