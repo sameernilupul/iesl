@@ -9,19 +9,20 @@ echo
                         Institution of Engineers, Sri Lanka<br/>
                         /15 Wijerama Mawatha<br/>
                         Colombo 07<br/></p>
-                    <form action="">    
+                    <form class ="form" action="">
                         <table style="font-size: x-large; font-family: \'Kefa\'; color: whitesmoke;margin: 0 auto">
+                            <td><p style ="color: gold;">General Details</p></td>
                             <tr>
-
-                                <td>Robot Name</td>
-                                <td><input type="text" id ="robot"></td>
+                                <td><input type="text" id ="robot">
+                                <label for="name">Robot Name</label> 
+                                </td>
                             </tr>
                             <tr>
-                                <td>University Name</td>
-                                <td><input type="text" id ="university"></td>
+                                <td><input type="text" id ="university"><label for="name">University Name</label> 
+                                </td>
                             </tr>
                             <tr>
-                                <td>Team members</td>
+                                <td><p style ="color: gold;">Team Members</p></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -29,145 +30,178 @@ echo
                                 <td></td>
                             </tr>
                             <tr>
-
-                                <td>Student Name</td>
-                                <td><input type="text" id ="mem1name"></td>                            
+                                <td><input type="text" id ="mem1name">
+                                <label for="name">Student Name</label> 
+                                </td>                            
                             </tr>
                             <tr>
-                                <td>University ID Number </td>
-                                <td><input type="text" id ="mem1index"></td>
+                                <td><input type="text" id ="mem1index">
+                                <label for="name">University ID Number</label> 
+                                </td> 
+                            </tr>
+                            <tr>	
+                                <td><input type="text" id ="mem1dept">
+                                <label for="name">University ID Number</label> 
+                                </td>
+                            </tr>
+                            <tr>	
+                                <td><input type="text" id ="mem1sem">
+                                <label for="name">Semester of Study</label> 
+                                </td>
+                            </tr>
+                            <tr>	
+                                <td><input type="text" id ="mem1email">
+                                <label for="name">Email Address</label> 
+                                </td>
+                            </tr>
+                            <tr>	
+                                <td><input type="text" id ="mem1no">
+                                <label for="name">Contact Number</label> 
+                                </td>
                             </tr>
                             <tr>
-                                <td>Department of Study</td>	
-                                <td><input type="text" id ="mem1dept"></td>
-                            </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
-                                <td><input type="text" id ="mem1sem"></td>
-                            </tr>
-                            <tr>
-                                <td>Email Address</td>	
-                                <td><input type="text" id ="mem1email"></td>
-                            </tr>
-                            <tr>
-                                <td>Contact Number</td>	
-                                <td><input type="text" id ="mem1no"></td>
-                            </tr>
-                            <tr>
-                                <td style="height:70px ">Member 2</td>	
+                                <td style="height:70px ">Member 2</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Student Name</td>	
-                                <td><input type="text" id ="mem2name"></td>
+                                <td><input type="text" id ="mem2name">
+                                <label for="name">Student Name</label> 
+                                </td>                            
                             </tr>
                             <tr>
-                                <td>University ID Number </td>
-                                <td><input type="text" id ="mem2index"></td>
+                                <td><input type="text" id ="mem2index">
+                                <label for="name">University ID Number</label> 
+                                </td> 
+                            </tr>
+                            <tr>	
+                                <td><input type="text" id ="mem2dept">
+                                <label for="name">University ID Number</label> 
+                                </td>
+                            </tr>
+                            <tr>	
+                                <td><input type="text" id ="mem2sem">
+                                <label for="name">Semester of Study</label> 
+                                </td>
+                            </tr>
+                            <tr>	
+                                <td><input type="text" id ="mem2email">
+                                <label for="name">Email Address</label> 
+                                </td>
+                            </tr>
+                            <tr>	
+                                <td><input type="text" id ="mem2no">
+                                <label for="name">Contact Number</label> 
+                                </td>
                             </tr>
                             <tr>
-                                <td>Department of Study</td>
-                                <td><input type="text" id ="mem2dept"></td>
-                            </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
-                                <td><input type="text" id ="mem2sem"></td>
-                            </tr>
-                            <tr>
-                                <td>Email Address</td>	
-                                <td><input type="text" id ="mem2email"></td>
-                            </tr>
-                            <tr>
-                                <td>Contact Number</td>	
-                                <td><input type="text" id ="mem2no"></td>
-                            </tr>
-                            <tr>
-                                <td style="height:70px ">Member 3</td>	
+                                <td style="height:70px ">Member 3</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Student Name</td>	
-                                <td><input type="text" id ="mem3name"></td>
+                                <td><input type="text" id ="mem3name">
+                                <label for="name">Student Name</label> 
+                                </td>                            
                             </tr>
                             <tr>
-                                <td>University ID Number</td>
-                                <td><input type="text" id ="mem3index"></td>                            
+                                <td><input type="text" id ="mem3index">
+                                <label for="name">University ID Number</label> 
+                                </td> 
                             </tr>
-                            <tr>
-                                <td>Department of Study</td>
-                                <td><input type="text" id ="mem3dept"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem3dept">
+                                <label for="name">University ID Number</label> 
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
-                                <td><input type="text" id ="mem3sem"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem3sem">
+                                <label for="name">Semester of Study</label> 
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Email Address</td>	
-                                <td><input type="text" id="mem3email"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem3email">
+                                <label for="name">Email Address</label> 
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Contact Number</td>	
-                                <td><input type="text" id ="mem3no"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem3no">
+                                <label for="name">Contact Number</label> 
+                                </td>
                             </tr>
+                        
                             <tr>
                                 <td style="height:70px ">Member 4</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Student Name</td>
-                                <td><input type="text" id ="mem4name"></td>
+                                <td><input type="text" id ="mem4name">
+                                <label for="name">Student Name</label> 
+                                </td>                            
                             </tr>
                             <tr>
-                                <td>University ID Number </td>
-                                <td><input type="text" id ="mem4index"></td>
+                                <td><input type="text" id ="mem4index">
+                                <label for="name">University ID Number</label> 
+                                </td> 
                             </tr>
-                            <tr>
-                                <td>Department of Study</td>
-                                <td><input type="text" id ="mem4dept"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem4dept">
+                                <label for="name">University ID Number</label> 
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
-                                <td><input type="text" id ="mem4sem"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem4sem">
+                                <label for="name">Semester of Study</label> 
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Email Address</td>
-                                <td><input type="text" id ="mem4email"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem4email">
+                                <label for="name">Email Address</label> 
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Contact Number</td>
-                                <td><input type="text" id ="mem4no"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem4no">
+                                <label for="name">Contact Number</label> 
+                                </td>
                             </tr>
                             <tr>
                                 <td style="height:70px ">Member 5</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Student Name</td>	
-                                <td><input type="text" id ="mem5name"></td>
+                                <td><input type="text" id ="mem5name">
+                                <label for="name">Student Name</label> 
+                                </td>                            
                             </tr>
                             <tr>
-                                <td>University ID Number</td>
-                                <td><input type="text" id ="mem5index"></td>
+                                <td><input type="text" id ="mem5index">
+                                <label for="name">University ID Number</label> 
+                                </td> 
                             </tr>
-                            <tr>
-                                <td>Department of Study</td>
-                                <td><input type="text" id ="mem5dept"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem5dept">
+                                <label for="name">University ID Number</label> 
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Semester of Study</td>	
-                                <td><input type="text" id ="mem5sem"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem5sem">
+                                <label for="name">Semester of Study</label> 
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Email Address</td>	
-                                <td><input type="text" id ="mem5email"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem5email">
+                                <label for="name">Email Address</label> 
+                                </td>
                             </tr>
-                            <tr>
-                                <td>Contact Number</td>	
-                                <td><input type="text" id ="mem5no"></td>
+                            <tr>	
+                                <td><input type="text" id ="mem5no">
+                                <label for="name">Contact Number</label> 
+                                </td>
                             </tr>
-                            <tr>
                                 <td></td>
-                                <td><input type="submit" value="Submit" onclick="register_undergrad_submit()"/></td>
+                                <td>
+                                <p class="submit">
+                                <input type="submit" value="Submit" onclick="register_undergrad_submit()"/>
+                                </p>
+                                </td>
                             </tr>
                         </table>
                         
