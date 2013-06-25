@@ -121,9 +121,7 @@
             );
             }
             function about(){
-                $("#main").animate(
-                {height:'toggle'},1000
-            );
+                $("#main").css("height","0%");
                 $("#sidebar").animate(
                 //{width:'toggle'},1000
             );    
@@ -144,9 +142,7 @@
             );
             }
             function contact(){
-                $("#main").animate(
-                {height:'toggle'},1000
-            );
+                $("#main").css("height","0%");
                 $("#sidebar").animate(
                 //{width:'toggle'},1000
             );    
@@ -168,9 +164,7 @@
             }
             
             function challenge_school(){
-                $("#main").animate(
-                {height:'toggle'},1000
-            );
+                $("#main").css("height","0%");
                 $("#sidebar").animate(
                 //{width:'toggle'},1000
             );    
@@ -192,9 +186,7 @@
             }
             
             function challenge_undergrad(){
-                $("#main").animate(
-                {height:'toggle'},1000
-            );
+                $("#main").css("height","0%");
                 $("#sidebar").animate(
                 //{width:'toggle'},1000
             );    
@@ -216,9 +208,7 @@
             }
             
             function register_undergrad(){
-                $("#main").animate(
-                {height:'toggle'},1000
-            );
+                $("#main").css("height","0%");
                 $("#sidebar").animate(
                 //{width:'toggle'},1000
             );    
@@ -240,9 +230,7 @@
             );
             }
             function register_school(){
-                $("#main").animate(
-                {height:'toggle'},1000
-            );
+                $("#main").css("height","0%");
                 $("#sidebar").animate(
                 //{width:'toggle'},1000
             );    
@@ -591,9 +579,7 @@
             }
             
             function resources(){
-                $("#main").animate(
-                {height:'toggle'},1000
-            );
+                $("#main").css("height","0%");
                 $("#sidebar").animate(
                 //{width:'toggle'},1000
             );    
