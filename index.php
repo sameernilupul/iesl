@@ -112,7 +112,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'100%'}, 1000, 'linear'
+                {height:'90%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -133,7 +133,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'100%'}, 1000, 'linear'
+                {height:'90%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -154,7 +154,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'100%'}, 1000, 'linear'
+                {height:'90%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -176,7 +176,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'100%'}, 1000, 'linear'
+                {height:'90%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -198,7 +198,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'100%'}, 1000, 'linear'
+                {height:'90%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -221,7 +221,7 @@
                     
                 });
                 $("#main").animate(
-                {height:'100%'}, 1000, 'linear'
+                {height:'90%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -243,7 +243,7 @@
                     
                 });
                 $("#main").animate(
-                {height:'100%'}, 1000, 'linear'
+                {height:'90%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -316,6 +316,7 @@
                 // END TILTVIEWER CONFIGURATION OPTIONS
 		
                 fo.addParam("allowFullScreen","true");
+                $("#main").css("height","90%");
                 fo.write("main");
             }
             
@@ -431,7 +432,7 @@
                             mem5no :mem5no
                         }
                 }).done(function( result ) {  
-                    $("#main").html(result);
+                    //$("#main").html(result);
                     //alert(result);
                     if(result=='success'){
                         alert('Data successfully added');
@@ -565,7 +566,7 @@
                 
                         }
                 }).done(function( result ) {  
-                    $("#main").html(result);
+                    //$("#main").html(result);
                     //alert(result);
                     if(result=='success'){
                         alert('Data successfully added');
@@ -591,7 +592,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'100%'}, 1000, 'linear'
+                {height:'90%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -780,6 +781,9 @@
 
             function resize()
             {
+                var left = window.innerWidth/2-230;
+                document.getElementById("main").style.left = left+"px";
+                
                 w=parseInt((url.indexOf('w=')!=-1)?url.substring(url.indexOf('w=')+2,((url.substring(url.indexOf('w=')+2,url.length)).indexOf('&')!=-1)?url.indexOf('w=')+2+(url.substring(url.indexOf('w=')+2,url.length)).indexOf('&'):url.length):get_screen_size()[0]);
                 h=parseInt((url.indexOf('h=')!=-1)?url.substring(url.indexOf('h=')+2,((url.substring(url.indexOf('h=')+2,url.length)).indexOf('&')!=-1)?url.indexOf('h=')+2+(url.substring(url.indexOf('h=')+2,url.length)).indexOf('&'):url.length):get_screen_size()[1]);
                 x=Math.round(w/2);
@@ -798,7 +802,7 @@
 
         </script>
     </head>
-    <body background="images/background.jpg" onload="start()" onresize="resize()" onorientationchange="resize()" onmousedown="context.fillStyle='rgba(0,0,0,'+opacity+')'" onmouseup="context.fillStyle='rgb(0,0,0)'">
+    <body background="images/background.jpg" style="background-repeat: no-repeat;" onload="start()" onresize="resize()" onorientationchange="resize()" onmousedown="context.fillStyle='rgba(0,0,0,'+opacity+')'" onmouseup="context.fillStyle='rgb(0,0,0)'">
         <canvas id="starfield" style="background-color:transparent"></canvas>
         <div id="adsense" style="position:absolute;background-color:transparent;display:none">
         </div>
