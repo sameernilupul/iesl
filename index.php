@@ -1,4 +1,3 @@
-
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -101,9 +100,7 @@
             });
             
             function home(){
-                $("#main").animate(
-                {height:'toggle'},1000
-            );
+                $("#main").css(height,'0%')
                 $("#sidebar").animate(
                 //{width:'toggle'},1000
             );    
@@ -115,7 +112,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'toggle'}
+                {height:'100%'}
                 
                 
             ).delay(500);
