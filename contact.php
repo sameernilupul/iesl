@@ -1,6 +1,6 @@
 <?php
 
-echo '<p style ="color: gold;">Contact Us</p>'.'<p>Please contact our organizing committee for further injuries.</p>';
+echo '<p style ="color: gold;">Contact Us</p>'.'<p>Please contact our organizing committee for further inquries.</p>';
 
 echo '<p>Regarding Registration and Event details:</p>';
 echo '<ul>
