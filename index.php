@@ -111,7 +111,7 @@
                 }).done(function( result ) {
                     $("#main").html(result);
                 });
-                $("#main").animate(
+                $("#main").delay(1000).animate(
                 {height:'100%'}
                 
                 
