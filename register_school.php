@@ -181,7 +181,7 @@ echo
                                 <td></td>
                                 <td>
                                 <p class="submit">
-                                <input type="submit" value="Submit" onclick="register_school_submit()"/>
+                                <input type="button" value="Submit" onclick="register_school_submit()"/>
                                 </p >
                                 </td>
                             </tr>

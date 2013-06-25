@@ -47,8 +47,8 @@ $mem5no = $_POST['mem5no'];
 ////////////////////////////
 //'" . $robot . "','" . $university . "','" . $mem1name . "','" . $mem1index . "','" . $mem1dept . "','" . $mem1sem . "','" . $mem1email . "','" . $mem1no . "','" . $mem2name . "','" . $mem2index . "','" . $mem2dept . "','" . $mem2sem . "','" . $mem2email . "','" . $mem2no . "','" . $mem3name . "','" . $mem3index . "','" . $mem3dept . "','" . $mem3sem . "','" . $mem3email . "','" . $mem3no . "','" . $mem4name . "','" . $mem4index . "','" . $mem4dept . "','" . $mem4sem . "','" . $mem4email . "','" . $mem4no . "','" . $mem5name . "','" . $mem5index . "','" . $mem5dept . "','" . $mem5sem . "','" . $mem5email . "','" . $mem5no
 ////////////////,,///////
-$con = mysql_connect("localhost", "idea_challenge", "Xhallenge0099-123Zx");
-$db = mysql_select_db("idea_challenge", $con);
+$con = mysql_connect("sql210.byethost22.com", "b22_11314078", "fun123");
+$db = mysql_select_db("b22_11314078_iesl", $con);
 $today = date("Y-m-d");
 
 $sql = "INSERT INTO und_reg (robot,university,mem1name,mem1index,mem1dept,mem1sem,mem1email,mem1no,mem2name,mem2index,mem2dept,mem2sem,mem2email,mem2no,mem3name,mem3index,mem3dept,mem3sem,mem3email,mem3no,mem4name,mem4index,mem4dept,mem4sem,mem4email,mem4no,mem5name,mem5index,mem5dept,mem5sem,mem5email,mem5no,applied_date) values('" . $robot . "','" . $university . "','" . $mem1name . "','" . $mem1index . "','" . $mem1dept . "','" . $mem1sem . "','" . $mem1email . "','" . $mem1no . "','" . $mem2name . "','" . $mem2index . "','" . $mem2dept . "','" . $mem2sem . "','" . $mem2email . "','" . $mem2no . "','" . $mem3name . "','" . $mem3index . "','" . $mem3dept . "','" . $mem3sem . "','" . $mem3email . "','" . $mem3no . "','" . $mem4name . "','" . $mem4index . "','" . $mem4dept . "','" . $mem4sem . "','" . $mem4email . "','" . $mem4no . "','" . $mem5name . "','" . $mem5index . "','" . $mem5dept . "','" . $mem5sem . "','" . $mem5email . "','" . $mem5no . "','" . $today . "')";
