@@ -133,7 +133,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'toggle'}
+                {height:'100%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -154,7 +154,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'toggle'}
+                {height:'100%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -176,7 +176,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'toggle'}
+                {height:'100%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -198,7 +198,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'toggle'}
+                {height:'100%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -221,7 +221,7 @@
                     
                 });
                 $("#main").animate(
-                {height:'toggle'}
+                {height:'100%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -243,7 +243,7 @@
                     
                 });
                 $("#main").animate(
-                {height:'toggle'}
+                {height:'100%'}, 1000, 'linear'
                 
                 
             ).delay(500);
@@ -591,7 +591,7 @@
                     $("#main").html(result);
                 });
                 $("#main").animate(
-                {height:'toggle'}
+                {height:'100%'}, 1000, 'linear'
                 
                 
             ).delay(500);
