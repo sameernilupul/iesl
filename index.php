@@ -100,7 +100,7 @@
             });
             
             function home(){
-                $("#main").css(height,'0%');
+                $("#main").css("height","0%");
                 $("#sidebar").animate(
                 //{width:'toggle'},1000
             );    
