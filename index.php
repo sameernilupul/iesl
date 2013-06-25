@@ -111,8 +111,8 @@
                 }).done(function( result ) {
                     $("#main").html(result);
                 });
-                $("#main").delay(1000).animate(
-                {height:'100%'}
+                $("#main").animate(
+                {height:'100%'}, 1000, 'linear'
                 
                 
             ).delay(500);
